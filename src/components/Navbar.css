@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+.navbar button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+.navbar button:hover {
+    background-color: #555;
+  }
+  
+.navbar form {
+    display: flex;
+    align-items: center;
+  }
+.navbar input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+.navbar button[type="submit"] {
+    padding: 0.5rem 1rem;
+  }
+  
